@@ -277,7 +277,7 @@ from tkinter import ttk, filedialog, messagebox
 class App(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title('VideoToMP3 - 视频转换下载器')
+        self.title('WebMediaDownloader - 网络媒体下载器')
         self.geometry('720x620')
         self.minsize(640, 520)
         self.protocol('WM_DELETE_WINDOW', self._on_closing)

@@ -1,8 +1,8 @@
 @echo off
 chcp 65001 >nul
-title VideoToMP3 Build
+title WebMediaDownloader Build
 echo.
-echo  Building VideoToMP3...
+echo  Building WebMediaDownloader...
 echo.
 python "%~dp0build.py"
 echo.
